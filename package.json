@@ -1,0 +1,30 @@
+{
+  "name": "basket",
+  "version": "1.0.0",
+  "description": "A customer basket that allows a customer to add products and provides a total cost of the basket including applicable discounts",
+  "main": "src/basket.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denizozger/basket.git"
+  },
+  "author": "Deniz Ozger denizozger@gmail.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/denizozger/basket/issues"
+  },
+  "homepage": "https://github.com/denizozger/basket#readme",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  },
+  "engines": {
+    "node": ">6.4.0"
+  },
+  "engineStrict": true
+}
